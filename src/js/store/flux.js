@@ -1,6 +1,7 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
+			
 			demo: [
 				{
 					title: "FIRST",
@@ -24,6 +25,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 					fetch().then().then(data => setStore({ "foo": data.bar }))
 				*/
 			},
+			//>>> todolist and todos actions related with backend
+			// <<< todolist and todos actions related with backend
+			
+
 			changeColor: (index, color) => {
 				//get the store
 				const store = getStore();
